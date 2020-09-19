@@ -116,10 +116,3 @@ h3 {
     justify-content: center;
 }
 
-.greeting{
-    top: 6%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
