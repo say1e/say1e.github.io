@@ -6,14 +6,15 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
-    line-height: 5.5rem;
+    font-size: 70px;
+    line-height: 90px;
     font-weight: 600;
+    text-align: center;
 }
 
 h3 {
-    font-size: 2rem;
-    line-height: 3.5rem;
+    font-size: 30px;
+    line-height: 50px;
     font-weight: 200;
 }
 
