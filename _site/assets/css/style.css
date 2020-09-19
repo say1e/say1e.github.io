@@ -1,15 +1,4 @@
-@font-face {
-    font-family: 'Omnes';
-    font-style: normal;
-    font-weight: 500;
-    src: url('chrome-extension://bgkknpjjkdiodnjnkkabgnkfdhcokden/fonts/Omnes-Regular.otf');
-  }
-  @font-face {
-    font-family: 'Omnes';
-    font-style: bold;
-    font-weight: 700;
-    src: url('chrome-extension://bgkknpjjkdiodnjnkkabgnkfdhcokden/fonts/Omnes-Semibold.otf');
-  }
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
 body {
     margin:0;
@@ -19,7 +8,7 @@ body {
 h1 {
     font-size: 4rem;
     line-height: 6rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .LatexTitle{
