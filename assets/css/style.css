@@ -13,7 +13,6 @@ body {
 h1 {
     font-size: 60px;
     line-height: 70px;
-    line-height: 6rem;
     font-weight: 600;
 }
 
@@ -22,6 +21,40 @@ h3 {
     line-height: 30px;
     font-weight: 600;
 }
+
+.main-contents{
+    top: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1440px) {
+    h1 {
+        font-size: 94px;
+        line-height: 110px;
+        font-weight: 600;
+        margin: 30px;
+    }
+    
+    h3 {
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: 600;
+        margin: 30px;
+    }
+
+    .main-contents{
+        top: 3%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 
 .LatexTitle{
     font-family: CMR;
@@ -110,12 +143,4 @@ h3 {
     background-repeat: no-repeat;
     margin: 0px !important;
 
-}
-
-.main-contents{
-    top: 20%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }

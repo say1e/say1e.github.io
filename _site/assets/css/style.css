@@ -11,33 +11,50 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
-    line-height: 5rem;
+    font-size: 60px;
+    line-height: 70px;
     font-weight: 600;
-    margin: 30px;
 }
 
 h3 {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 20px;
+    line-height: 30px;
     font-weight: 600;
 }
 
+.main-contents{
+    top: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 @media screen and (max-width: 1440px) {
     h1 {
-        font-size: 100px;
-        line-height: 116px;
+        font-size: 94px;
+        line-height: 110px;
         font-weight: 600;
-        margin: 68px;
+        margin: 30px;
     }
     
     h3 {
-        font-size: 46px;
-        line-height: 52px;
+        font-size: 40px;
+        line-height: 58px;
         font-weight: 600;
-        margin: 20px;
+        margin: 30px;
+    }
+
+    .main-contents{
+        top: 3%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
+
 
 .LatexTitle{
     font-family: CMR;
@@ -126,12 +143,4 @@ h3 {
     background-repeat: no-repeat;
     margin: 0px !important;
 
-}
-
-.main-contents{
-    top: 100px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
