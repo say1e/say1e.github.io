@@ -23,6 +23,22 @@ h3 {
     font-weight: 600;
 }
 
+@media screen and (max-width: 1440px) {
+    h1 {
+        font-size: 100px;
+        line-height: 116px;
+        font-weight: 600;
+        margin: 68px;
+    }
+    
+    h3 {
+        font-size: 46px;
+        line-height: 52px;
+        font-weight: 600;
+        margin: 20px;
+    }
+}
+
 .LatexTitle{
     font-family: CMR;
     font-size: 40px;
