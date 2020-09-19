@@ -65,6 +65,14 @@ p {
     justify-content: center;
 }
 
+.main-scroll{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
 
 @media screen and (max-width: 1440px) {
     h1 {
