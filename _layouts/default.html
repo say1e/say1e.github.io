@@ -1,0 +1,44 @@
+---
+---
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div class="hero">
+      <div class="main-contents">
+        <h1><center>
+          2020년 12월 19일<br>
+          1시 30분 KBS 신관
+          </center>
+        </h1>
+      </div>
+
+
+    </div>
+
+
+    <div class="Margins">
+      <p class="LatexTitle">{{ page.title }}</p>
+      {% if page.creator %} <p class="LatexName">{{ page.creator }}</p> {% endif %}
+      {% if page.date %} <p class="LatexDate">{{ page.date }}</p> {% endif %}
+      
+      {% if page.abstract %}<div class="AbstractMargins">
+        <p class="LatexAbstract">Abstract</p>
+        <p class="LatexAbstractText">{{ page.abstract }}</p>
+      </div>{% endif %}
+
+      
+      {{ content }}
+
+
+    </div>
+  </body>
+  <footer class="footerSize">
+
+  </footer>
+</html>
