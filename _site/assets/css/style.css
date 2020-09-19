@@ -7,19 +7,20 @@
 
 body {
     margin:0;
-    font-family: 'MapoGoldenPier'
+    font-family: 'MapoGoldenPier';
+    word-spacing: -5px;
 }
 
 h1 {
     font-size: 60px;
     line-height: 70px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 h3 {
     font-size: 20px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .main-contents{
@@ -96,8 +97,8 @@ h3 {
 }
 
 .Margins{
-    padding-left: 21%;
-    width: 58%;
+    width: 100%;
+    text-align: center;
 }
 
 .AbstractMargins{
@@ -142,5 +143,9 @@ h3 {
     background-position: 50%;
     background-repeat: no-repeat;
     margin: 0px !important;
+}
 
+.contents{
+    width: 100%;
+    text-align: center;
 }

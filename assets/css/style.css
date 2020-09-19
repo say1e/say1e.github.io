@@ -7,19 +7,20 @@
 
 body {
     margin:0;
-    font-family: 'MapoGoldenPier'
+    font-family: 'MapoGoldenPier';
+    word-spacing: -5px;
 }
 
 h1 {
     font-size: 60px;
     line-height: 70px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 h3 {
     font-size: 20px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .main-contents{
