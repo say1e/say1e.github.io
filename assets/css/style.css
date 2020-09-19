@@ -1,24 +1,25 @@
 @font-face {
-    font-family: 'Omnes';
+    font-family: 'MapoGoldenPier';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 500;
-    src: url('chrome-extension://bgkknpjjkdiodnjnkkabgnkfdhcokden/fonts/Omnes-Regular.otf');
-  }
-  @font-face {
-    font-family: 'Omnes';
-    font-style: bold;
-    font-weight: 700;
-    src: url('chrome-extension://bgkknpjjkdiodnjnkkabgnkfdhcokden/fonts/Omnes-Semibold.otf');
-  }
+}
 
 body {
     margin:0;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'MapoGoldenPier'
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 60px;
+    line-height: 70px;
     line-height: 6rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 30px;
     font-weight: 600;
 }
 
@@ -112,22 +113,9 @@ h1 {
 }
 
 .main-contents{
-    top: 40%;
+    top: 20%;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.greeting{
-    position: absolute;
-    top: 40px;
-    left: 50%;
-    z-index: 1;
-}
-
-.date{
-    font-size: 4rem;
-    line-height: 6rem;
-    font-weight: 600;
 }
