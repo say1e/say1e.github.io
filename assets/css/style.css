@@ -51,6 +51,12 @@ h3 {
     font-weight: 400;
 }
 
+p {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
 .main-contents{
     top: 25%;
     position: relative;
@@ -164,11 +170,15 @@ h3 {
     position: relative;
     box-sizing: border-box;
     display: block;
-    text-align: left;
     color: white;
     background: url('/images/DSC04529.jpg');
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
-    margin: 0px !important;
 }
+
+.body-contents{
+    margin: 60px;
+    text-align: center;
+}
+
