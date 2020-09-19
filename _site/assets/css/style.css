@@ -41,7 +41,6 @@ body {
 
 h1 {
     font-size: 60px;
-    font-family: 'GmarketSans';
     line-height: 70px;
     font-weight: 600;
 }
@@ -172,5 +171,11 @@ h3 {
     background-position: 50%;
     background-repeat: no-repeat;
     margin: 0px !important;
+    background-attachment: fixed;
+}
 
+.contents{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px
 }
